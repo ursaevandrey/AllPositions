@@ -1,0 +1,23 @@
+{
+    "name": "ursaevandrey/allpositions",
+    "description": "Client for AllPositions API",
+    "keywords": ["allpositions client", "allpositions"],
+    "homepage": "https://github.com/ursaevandrey/allpositions",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Andrey Ursaev",
+            "email": "yrsaev.andrey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-xmlrpc": "*"
+    },
+    "autoload": {
+        "psr-4": {"allpositions\\": ""}
+    }
+}
